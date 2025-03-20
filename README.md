@@ -22,12 +22,12 @@ A comprehensive suite of AI test environments showcasing diverse machine learnin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ai-test-environments.git
-   cd ai-test-environments
+   git clone https://github.com/JbellMD/ai_test_env_RLE.git
+   cd ai_test_env_RLE
 docker build -t cv_env .
 
 ## Run the Docker container:
-docker run -it -p 8888:8888 -p 8000:8000 nlp_env
+docker run -it -p 8888:8888 -p 8000:8000 cv_env
 
 Set up the environment:
 bash
